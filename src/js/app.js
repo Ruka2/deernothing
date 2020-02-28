@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "shape": {
         "type": "circle",
         "stroke": {
-          "width": 0,
+          "width": 100,
           "color": "#000000"
         },
         "polygon": {
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       },
       "line_linked": {
-        "enable": false,
+        "enable": true,
         "distance": 150,
         "color": "#ffffff",
         "opacity": 0.4,
@@ -76,11 +76,11 @@ document.addEventListener("DOMContentLoaded", function () {
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": false,
+          "enable": true,
           "mode": "bubble"
         },
         "onclick": {
-          "enable": false,
+          "enable": true,
           "mode": "repulse"
         },
         "resize": true
