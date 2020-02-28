@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
   particlesJS('particles-js', {
     "particles": {
       "number": {
-        "value": 1000,
+        "value": 260,
         "density": {
-          "enable": false,
-          "value_area": 500
+          "enable": true,
+          "value_area": 800
         }
       },
       "color": {
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "shape": {
         "type": "circle",
         "stroke": {
-          "width": 50,
+          "width": 0,
           "color": "#000000"
         },
         "polygon": {
@@ -32,10 +32,10 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       "opacity": {
         "value": 1,
-        "random": true,
+        "random": false,
         "anim": {
           "enable": true,
-          "speed": 1,
+          "speed": 4,
           "opacity_min": 0,
           "sync": false
         }
@@ -44,17 +44,17 @@ document.addEventListener("DOMContentLoaded", function () {
         "value": 3,
         "random": true,
         "anim": {
-          "enable": ture,
+          "enable": false,
           "speed": 4,
           "size_min": 0.3,
           "sync": false
         }
       },
       "line_linked": {
-        "enable": true,
+        "enable": flase,
         "distance": 150,
         "color": "#ffffff",
-        "opacity": 0.1,
+        "opacity": 0.4,
         "width": 1
       },
       "move": {
@@ -64,9 +64,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "random": true,
         "straight": false,
         "out_mode": "out",
-        "bounce": true,
+        "bounce": flase,
         "attract": {
-          "enable": true,
+          "enable": flase,
           "rotateX": 600,
           "rotateY": 600
         }
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": false,
+          "enable": true,
           "mode": "bubble"
         },
         "onclick": {
