@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "number": {
         "value": 160,
         "density": {
-          "enable": true,
+          "enable": false,
           "value_area": 500
         }
       },
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "shape": {
         "type": "circle",
         "stroke": {
-          "width": 100,
+          "width": 50,
           "color": "#000000"
         },
         "polygon": {
@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "value": 3,
         "random": true,
         "anim": {
-          "enable": false,
+          "enable": ture,
           "speed": 4,
           "size_min": 0.3,
           "sync": false
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "enable": true,
         "distance": 150,
         "color": "#ffffff",
-        "opacity": 0.4,
+        "opacity": 0.1,
         "width": 1
       },
       "move": {
@@ -64,9 +64,9 @@ document.addEventListener("DOMContentLoaded", function () {
         "random": true,
         "straight": false,
         "out_mode": "out",
-        "bounce": false,
+        "bounce": true,
         "attract": {
-          "enable": false,
+          "enable": true,
           "rotateX": 600,
           "rotateY": 600
         }
