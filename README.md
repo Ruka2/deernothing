@@ -1,6 +1,7 @@
 # Jekyll Theme
 
 Live demo at https://jekyll-theme-minimal-resume.netlify.com/
+-
 ![](https://img.shields.io/badge/jekyll-✓-blue.svg)
 ![](https://img.shields.io/badge/html5-✓-blue.svg)
 ![](https://img.shields.io/badge/sass-✓-blue.svg)
